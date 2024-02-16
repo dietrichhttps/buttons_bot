@@ -1,7 +1,7 @@
 import asyncio
 
 from aiogram import Bot, Dispatcher
-from congig_data.config import load_config, Config
+from config_data.config import load_config, Config
 from handlers import user_handlers
 
 

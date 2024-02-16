@@ -9,7 +9,7 @@ from keyboards.keyboards import dog_cucumber_keyboard, remove_keyboard
 router = Router()
 
 
-@router.message(CommandStart)
+@router.message(CommandStart())
 async def process_start_command(message: Message):
     print('Апдейт дошел до хэндлера process_start_command')
     await message.answer(
